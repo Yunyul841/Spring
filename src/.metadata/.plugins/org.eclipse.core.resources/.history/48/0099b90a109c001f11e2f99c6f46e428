@@ -1,0 +1,20 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+<h1>
+안녕하세유~~~~~~~~~~~~~~~~~ 
+</h1>
+<h1>
+	내이름은 윤율
+</h1>
+<h1>
+  	yunyul King!!!
+</h1>
+
+<P>  The time on the server is ${serverTime}. </P>
+</body>
+</html>

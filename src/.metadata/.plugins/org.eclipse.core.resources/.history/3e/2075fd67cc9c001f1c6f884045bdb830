@@ -1,0 +1,19 @@
+package www.silver.hom;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class WordController {
+	
+		@RequestMapping(value = "word", method = RequestMethod.GET)
+		public String afdasf(@RequestParam("eng") String e,
+				@RequestParam("kor") String k, Model m) {
+			m.addAttribute("eng", e);
+			m.addAttribute("kor", k);
+			return "word/index";
+		}
+	}

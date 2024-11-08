@@ -1,0 +1,61 @@
+
+11월 06, 2024 14:05:13.60 NEW SESSION
+11월 06, 2024 14:05:13.60 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 06, 2024 15:56:28.41 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 06, 2024 16:03:56.65 [21036:11772:1106/160356.651:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98356)
+11월 06, 2024 16:03:56.65     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:191793
+11월 06, 2024 16:03:56.65     at new oi (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192189)
+11월 06, 2024 16:03:56.65     at oi.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192311)
+11월 06, 2024 16:03:56.65     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+11월 06, 2024 16:03:56.65     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
+11월 06, 2024 16:03:56.65     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+11월 06, 2024 16:18:34.84 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 06, 2024 16:23:51.53 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 06, 2024 16:25:06.10 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 06, 2024 16:25:22.12 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 06, 2024 16:26:08.15 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 06, 2024 16:27:52.63 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 06, 2024 16:30:07.27 [8148:12996:1106/163007.272:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:07.51 [8148:12996:1106/163007.515:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:07.54 [8148:12996:1106/163007.540:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:07.74 [8148:12996:1106/163007.744:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:07.85 [8148:12996:1106/163007.851:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:08.02 [8148:12996:1106/163008.021:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:08.15 [8148:12996:1106/163008.159:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:08.36 [8148:12996:1106/163008.367:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:08.48 [8148:12996:1106/163008.486:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:08.58 [8148:12996:1106/163008.585:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:08.69 [8148:12996:1106/163008.696:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:08.80 [8148:12996:1106/163008.803:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:09.08 [8148:12996:1106/163009.087:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:09.22 [8148:12996:1106/163009.228:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:09.43 [8148:12996:1106/163009.438:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:09.54 [8148:12996:1106/163009.544:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:09.60 [8148:12996:1106/163009.600:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+11월 06, 2024 16:30:09.62 [8148:12996:1106/163009.628:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.243 s for first_image_paint 0.228 s
+
+11월 07, 2024 08:23:56.95 NEW SESSION
+11월 07, 2024 08:23:56.95 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 07, 2024 08:31:54.06 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 07, 2024 12:03:16.04 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 07, 2024 12:03:54.52 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 07, 2024 12:05:17.46 [984:15600:1107/120517.469:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98356)
+11월 07, 2024 12:05:17.46     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:191793
+11월 07, 2024 12:05:17.47     at new oi (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192189)
+11월 07, 2024 12:05:17.47     at oi.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192311)
+11월 07, 2024 12:05:17.47     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+11월 07, 2024 12:05:17.47     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
+11월 07, 2024 12:05:17.47     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+11월 07, 2024 12:07:55.11 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 07, 2024 12:09:13.55 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+11월 08, 2024 12:36:02.69 NEW SESSION
+11월 08, 2024 12:36:02.69 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 08, 2024 12:36:54.58 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+11월 08, 2024 13:55:29.57 NEW SESSION
+11월 08, 2024 13:55:29.57 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 08, 2024 14:06:58.35 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 08, 2024 15:33:19.99 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 08, 2024 15:46:29.47 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 08, 2024 15:48:43.64 Created TensorFlow Lite XNNPACK delegate for CPU.
