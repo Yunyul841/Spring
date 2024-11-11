@@ -1,0 +1,11 @@
+package www.silver.vo;
+
+public class BoardVo {
+	String type;
+	String username;
+	String title;
+	String content;
+	String pass;
+	String viewmember;
+	String indate;
+}

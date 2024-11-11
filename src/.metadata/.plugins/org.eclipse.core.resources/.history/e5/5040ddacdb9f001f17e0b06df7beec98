@@ -1,0 +1,16 @@
+package www.silver.hom;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+
+import www.silver.vo.MemberVO;
+
+@Controller
+public class BoardController {
+
+@getMapping(value = "board")
+public String join() throws Exception{
+	return "bbs";
+	
+}
+}

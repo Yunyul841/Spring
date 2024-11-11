@@ -1,0 +1,6 @@
+package www.silver.service;
+
+public interface IF_BoardService {
+	// 서비스를 정의
+	public void addBoard(BoardVO boardvo);
+}

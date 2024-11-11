@@ -1,0 +1,13 @@
+package www.silver.dao;
+
+import www.silver.vo.BoardVO;
+
+public class BoardDaoImpl implements IF_BoardDao{
+
+	@Override
+	public void insertBoard(BoardVO boardvo) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
