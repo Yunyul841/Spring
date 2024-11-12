@@ -3,5 +3,12 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 <fullyQualifiedTypeName name="www.silver.dao.IF_MeberDao"/>
+<fullyQualifiedTypeName name="www.silver.vo.BoardVo"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
 <fullyQualifiedTypeName name="www.silver.service.IF_MemberService"/>
+<fullyQualifiedTypeName name="www.silver.service.IF_BoardService"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="www.silver.dao.IF_BoardDao"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
 </qualifiedTypeNameHistroy>

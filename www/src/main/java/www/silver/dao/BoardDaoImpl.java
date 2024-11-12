@@ -1,5 +1,7 @@
 package www.silver.dao;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
 import org.apache.ibatis.session.SqlSession;
@@ -18,6 +20,11 @@ public class BoardDaoImpl implements IF_BoardDao {
 		// TODO Auto-generated method stub
 		// sqlsession을 통해서 mapper와 메핑해야 하기에 정보를 넘겨준다.
 		sqlsession.insert(mapperQuery + ".inin", boardvo);
+	}
+
+	@Override
+	public List<BoardVO> selectAll() throws Exception {
+		return sqlsession.selectList(mapperQuery+".selectall");
 	}
 
 }

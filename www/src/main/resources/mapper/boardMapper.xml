@@ -6,9 +6,12 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<!-- dao와 매핑은 namespace, id, parameterType를 맞춘다. -->
 	<!-- parameterType는 쿼리문의? 부분의 정보 -->
 	<insert id="inin" parameterType="www.silver.vo.BoardVO">
-		insert into kboard values (#{type},#{username},#{pass},#{title},#{content},#{viewmember},sysdate)
-
+		insert into kboard values
+		(#{type},#{username},#{pass},#{title},#{content},#{viewmember},sysdate)
 	</insert>
+	<select id="selectall" resultType="www.silver.vo.BoardVO">
+		select * from kboard
+	</select>
 
 </mapper>
 
