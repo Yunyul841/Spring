@@ -27,4 +27,10 @@ public class BoardDaoImpl implements IF_BoardDao {
 		return sqlsession.selectList(mapperQuery+".selectall");
 	}
 
+	@Override
+	public void deleteBoard(String delno) {
+		// TODO Auto-generated method stub
+		sqlsession.delete(mapperQuery+".delone",delno);
+	}
+
 }

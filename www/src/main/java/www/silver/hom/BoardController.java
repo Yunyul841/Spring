@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import www.silver.service.IF_BoardService;
 import www.silver.vo.BoardVO;
@@ -32,11 +33,20 @@ public class BoardController {
 		return "board/bbs";
 	}
 
+	// 글쓰기
 	@GetMapping(value = "bwr")
 	public String bwr() throws Exception {
 		return "board/bbswr";
 	}
 
+	// 삭제기능
+	@GetMapping(value = "del")
+	public String del(@RequestParam("delno") String delno) throws Exception {
+		boardservice.deleteBoard(delno);
+		return "redirect:board";
+	}
+
+	// 전체보기
 	@PostMapping(value = "bwrdo")
 	public String bwrdo(@ModelAttribute BoardVO boardvo) throws Exception {
 		// System.out.println(boardvo.toString());
