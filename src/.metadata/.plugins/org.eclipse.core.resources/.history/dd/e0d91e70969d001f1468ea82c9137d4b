@@ -1,6 +1,0 @@
-package www.silver.service;
-
-public class MemberServiceImpI implements IF_MemberService {
-	
-
-}

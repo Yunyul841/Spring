@@ -1,5 +1,5 @@
 #Tomcat publish data
-#Tue Nov 12 17:29:35 KST 2024
+#Wed Nov 13 17:30:18 KST 2024
 org.eclipse.jst.jee.server\:www2=D\:\\Spring\\spring_WEB\\WAS\\apache-tomcat-8.5.97\\wtpwebapps\\www2
 org.eclipse.jst.jee.server\:www=D\:\\Spring\\spring_WEB\\WAS\\apache-tomcat-8.5.97\\wtpwebapps\\www
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\15\\.m2\\repository\\org\\springframework\\spring-web\\4.3.22.RELEASE\\spring-web-4.3.22.RELEASE.jar=D\:\\Spring\\spring_WEB\\WAS\\apache-tomcat-8.5.97\\wtpwebapps\\www\\WEB-INF\\lib\\spring-web-4.3.22.RELEASE.jar

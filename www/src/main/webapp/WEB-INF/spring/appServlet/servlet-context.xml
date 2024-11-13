@@ -22,8 +22,6 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="www.silver.hom" />
-	<!-- 패키지 설정을 스캔을 해서 @Controller가 있으면 객체로 만들어주겠다.
-		다만 @Controller만이 객체를 만들지는 않는다 여러 다른 어노테이션이 있다 -->
 	
 	
 	

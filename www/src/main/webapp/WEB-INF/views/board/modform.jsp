@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+    
 <!DOCTYPE html>
 <html lang="en">
 
@@ -430,36 +432,43 @@
       <div>
         <div class="card text-center">
           <div class="card-body">
-            <h5 class="card-title">Java / DataBase 기록 남기기</h5>
+            <h5 class="card-title">게시글 수정</h5>
           </div>
         </div>
       </div>
 
-      <form class="row g-3" action="bwrdo" method="post">
+      <form class="row g-3" action="mod" method="post">
         <div class="col-md-4">
           <label for="inputState" class="form-label">놀이터 선택</label>
           <select id="inputState" class="form-select" name="type">
-            <option selected>Database</option>
-            <option>Java</option>
+            <option 
+            <c:if test="${boardvo.type eq 'Database'}">
+            selected
+            </c:if>>Database</option>
+            
+            <option 
+            <c:if test="${boardvo.type eq 'Java'}">selected
+            </c:if>
+            >Java</option>
           </select>
         </div>
         <div class="col-md-3">
           <label for="inputCity" class="form-label">작성자</label>
-          <input type="text" class="form-control" id="inputCity" name="username">
+          <input type="text" class="form-control" id="inputCity" name="username" value="${boardvo.username }">
         </div>
         <div class="col-md-3">
           <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4" name="pass">
+          <input type="password" class="form-control" id="inputPassword4" name="pass" value="${boardvo.pass }">
         </div>
         <div class="col-12">
           <label for="inputAddress" class="form-label">제목</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="제목을 입력하세요" name="title">
+          <input type="text" class="form-control" id="inputAddress" placeholder="제목을 입력하세요" name="title" value="${boardvo.title }" readonly>
         </div>
 
 
         <div class="form-floating">
           <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-            style="height: 200px" name="content"></textarea>
+            style="height: 200px" name="content">${boardvo.content }"</textarea>
           <label for="floatingTextarea2">Comments</label>
         </div>
         <div class="mb-3">
@@ -469,14 +478,18 @@
 
         <div class="col-12">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck" name="viewmember" value=1>
+            <input class="form-check-input" type="checkbox" id="gridCheck" name="viewmember" value=1
+            	<c:if test="${boardvo.viewmember eq '비공개'}">
+            	checked
+            	</c:if>            
+            >
             <label class="form-check-label" for="gridCheck">
               회원만 보기
             </label>
           </div>
         </div>
         <div class="col-12">
-          <button type="submit" class="btn btn-primary">저장하기</button>
+          <button type="submit" class="btn btn-primary">수정하기</button>
           <!--  submit 타입은 form action으로 지정된 곳으로 이동 -->
         </div>
       </form>

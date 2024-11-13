@@ -8,6 +8,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
 import www.silver.vo.BoardVO;
+import www.silver.vo.PageVO;
 
 @Repository
 public class BoardDaoImpl implements IF_BoardDao {
@@ -18,19 +19,43 @@ public class BoardDaoImpl implements IF_BoardDao {
 	@Override
 	public void insertBoard(BoardVO boardvo) throws Exception {
 		// TODO Auto-generated method stub
-		// sqlsession을 통해서 mapper와 메핑해야 하기에 정보를 넘겨준다.
+		// sqlsession을 통해서 mapper와 매핑해야 하기에 정보를 넘겨준다.
 		sqlsession.insert(mapperQuery + ".inin", boardvo);
+
 	}
+	
 
 	@Override
-	public List<BoardVO> selectAll() throws Exception {
-		return sqlsession.selectList(mapperQuery+".selectall");
-	}
-
-	@Override
-	public void deleteBoard(String delno) {
+	public List<BoardVO> selectAll(PageVO pagevo) throws Exception {
 		// TODO Auto-generated method stub
-		sqlsession.delete(mapperQuery+".delone",delno);
+		return sqlsession.selectList(mapperQuery + ".selectall", pagevo);
+	}
+
+	@Override
+	public void deleteBoard(String delno) throws Exception {
+		// TODO Auto-generated method stub
+		sqlsession.delete(mapperQuery + ".delone", delno);
+	}
+
+	@Override
+	public BoardVO selectOne(String title) throws Exception {
+		// TODO Auto-generated method stub
+//		HashMap aa = new HashMap<String, String>();
+//		aa.put("tt", title);
+//		aa.put("dd", date);
+		return sqlsession.selectOne(mapperQuery + ".selectTitle", title);
+	}
+
+	@Override
+	public void updateBoard(BoardVO boardvo) throws Exception {
+		// TODO Auto-generated method stub
+		sqlsession.update(mapperQuery + ".update", boardvo);
+	}
+
+	@Override
+	public int cntBoard() throws Exception {
+		// TODO Auto-generated method stub
+		return sqlsession.selectOne(mapperQuery + ".allcnt");
 	}
 
 }
