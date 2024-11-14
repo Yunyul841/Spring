@@ -1,16 +1,21 @@
 package www.silver.vo;
+
 public class PageVO {
-	private int startNo; // 페이지의 시작되는 글 번호 
-	private int endNo; // 페이지의 마지막 글 번호
-	private int perPageNum = 10; // 한페이지의 글 쓰는 번호
-	private Integer page; // Integer 웹에서 받은 페이지 정보(String)가 없으면 null인데 int는 null을 저장할 수 없다. 오류방지 // 현재페이지
+	// client부터 DB까지 이 VO를 가지고 data를 나르겠다. 할 때, VO를 만든다.
+	private int startNo; // page의 시작 글 번호
+	private int endNo; // page의 마지막 글 번호
+	private int perPageNum = 10; // 한 page당 게시글 수
+	private Integer page;
+	// Integer(String을 저장하지만 int로 인식) : 웹에서 받은 페이지 정보(String)가 없으면 null인데 int는 null을
+	// 저장할 수 없다. 오류방지
+	// 현재 page
 	private int totalCount; // 전체 게시글 수
-	private int endPage; 
-	private int startPage;
-	private boolean prev; // 이전이 있나요?
-	private boolean next; // 다음이 있나요?
-	// 검색용 변수 2개 추가
-	// 검색어까지 보내줘야된다.
+	private int endPage; // 페이지 그룹의 마지막 페이지 번호
+	private int startPage; // 페이지 그룹의 첫 페이지 번호(13페이지라면 11페이지)
+	private boolean prev; // 이전
+	private boolean next; // 다음
+	// 검색용 변수 2개 추가 >> paging을 할 때, 검색한 것을 가지고 페이지를 만들도록. 페이지 번호를 넘길 때, 검색어도 같이 넘겨야
+	// 그 뒤 페이지도 제대로 된 paging이 된다.
 	private String searchType;
 	private String searchKeyword;
 

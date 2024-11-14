@@ -7,11 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>내일 아침에 봐요~~</h1>
-	이름 : ${name}  <!--  el  표기법 --><br>
-	시간 : ${time }<br>
+	<h1>내일 아침에 봐요!!</h1>
+	이름 : ${name}	<!--  el 표기법  --><br>
+	시간 : ${time}<br>
 	나이 : ${age }<br>
-	
 	
 </body>
 </html>

@@ -8,12 +8,12 @@
 <fullyQualifiedTypeName name="www.silver.service.IF_BoardService"/>
 <fullyQualifiedTypeName name="www.silver.dao.IF_BoardDao"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
-<fullyQualifiedTypeName name="javax.inject.Inject"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
 <fullyQualifiedTypeName name="www.silver.vo.BoardVO"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
 <fullyQualifiedTypeName name="www.silver.vo.PageVO"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>

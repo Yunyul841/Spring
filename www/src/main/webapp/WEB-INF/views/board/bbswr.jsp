@@ -434,8 +434,8 @@
           </div>
         </div>
       </div>
-
-      <form class="row g-3" action="bwrdo" method="post">
+						<!-- file 업로드를 위해 multipart 기술 이용. 첨부파일을 서버로 전송하기 위한 것. -->
+      <form class="row g-3" action="bwrdo" method="post" encType="multipart/form-data">
         <div class="col-md-4">
           <label for="inputState" class="form-label">놀이터 선택</label>
           <select id="inputState" class="form-select" name="type">
@@ -463,8 +463,11 @@
           <label for="floatingTextarea2">Comments</label>
         </div>
         <div class="mb-3">
-          <input class="form-control" type="file" id="formFile">
-          <input class="form-control" type="file" id="formFile">
+        <!-- 파일자체와 파일의 정보(파일명, 파일의 용량 : metadata_data에 대한 정보를 담고 있는 것). 두 가지가 올라간다. -->
+        <!-- input type file로 하면 파일 선택할 수 있게 나온다.(파일의 속성을 가진다) -->
+        <!-- name : 파라미터의 변수로 사용하겠다. name이 같아서 length가 2인 배열로 올라간다. 순서대로 1,2번째 파일의 정보가 올라간다. -->
+          <input class="form-control" type="file" name ="file" id="formFile">
+          <input class="form-control" type="file" name ="file" id="formFile">
         </div>
 
         <div class="col-12">
@@ -477,7 +480,7 @@
         </div>
         <div class="col-12">
           <button type="submit" class="btn btn-primary">저장하기</button>
-          <!--  submit 타입은 form action으로 지정된 곳으로 이동 -->
+          <!-- submit 타입은 form tag의 action으로 지정된 곳으로 이동 -->
         </div>
       </form>
     </div>

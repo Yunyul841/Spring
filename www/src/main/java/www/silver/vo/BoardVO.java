@@ -3,16 +3,36 @@ package www.silver.vo;
 public class BoardVO {
 	String type;
 	String username;
+	String pass;
 	String title;
 	String content;
-	String pass;
 	String viewmember;
 	String indate;
+	String[] filename;
+	String num;
+	
+	
+
+	public String getNum() {
+		return num;
+	}
+
+	public void setNum(String num) {
+		this.num = num;
+	}
+
+	public String[] getFilename() {
+		return filename;
+	}
+
+	public void setFilename(String[] filename) {
+		this.filename = filename;
+	}
 
 	@Override
 	public String toString() {
-		return "BoardVO [type=" + type + ", username=" + username + ", title=" + title + ", content=" + content
-				+ ", pass=" + pass + ", viewmember=" + viewmember + ", indate=" + indate + "]";
+		return "BoardVO [type=" + type + ", username=" + username + ", pass=" + pass + ", title=" + title + ", content="
+				+ content + ", viewmember=" + viewmember + ", indate=" + indate + "]";
 	}
 
 	public String getType() {
@@ -31,6 +51,14 @@ public class BoardVO {
 		this.username = username;
 	}
 
+	public String getPass() {
+		return pass;
+	}
+
+	public void setPass(String pass) {
+		this.pass = pass;
+	}
+
 	public String getTitle() {
 		return title;
 	}
@@ -45,14 +73,6 @@ public class BoardVO {
 
 	public void setContent(String content) {
 		this.content = content;
-	}
-
-	public String getPass() {
-		return pass;
-	}
-
-	public void setPass(String pass) {
-		this.pass = pass;
 	}
 
 	public String getViewmember() {
