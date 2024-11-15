@@ -86,7 +86,7 @@ public class BoardController {
 		boardvo.setFilename(newFileName);
 		// 얘를 건드리면 뒤에 다 수정해야함, vo에 변수를 추가해서 리턴받은 파일명도 함께 보낼 수 있도록 한다.(위와 같이 setFilename을 한다)
 		boardservice.addBoard(boardvo);
-//		return "board/bbs";
+    
 		// view로 가면 방금 입력한 값이 나오지 않는다.
 		// model 객체로 받지 않아서 안된다.
 		return "redirect:board";

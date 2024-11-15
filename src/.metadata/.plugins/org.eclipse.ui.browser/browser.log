@@ -76,3 +76,18 @@
 11월 14, 2024 14:08:14.38 [9512:10620:1114/140814.384:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
 11월 14, 2024 14:54:23.24 [9512:7304:1114/145423.244:ERROR:sharing_service.cc(325)] Device un-registration failed with fatal error
 11월 14, 2024 14:54:26.20 [9512:7304:1114/145426.200:ERROR:device_event_log_impl.cc(201)] [14:54:26.199] Bluetooth: bluetooth_adapter_winrt.cc:1055 Getting Default Adapter failed.
+
+11월 15, 2024 12:39:24.69 NEW SESSION
+11월 15, 2024 12:39:24.69 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 15, 2024 14:56:27.92 [6140:21320:1115/145627.925:ERROR:device_event_log_impl.cc(201)] [14:56:27.925] Bluetooth: bluetooth_adapter_winrt.cc:1055 Getting Default Adapter failed.
+11월 15, 2024 14:56:28.26 [6140:21320:1115/145628.262:ERROR:web_contents_delegate.cc(277)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+11월 15, 2024 14:56:28.26 [6140:21320:1115/145628.262:ERROR:web_contents_delegate.cc(277)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+11월 15, 2024 14:56:40.33 [6140:21320:1115/145640.338:ERROR:web_contents_delegate.cc(277)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+11월 15, 2024 14:56:40.33 [6140:21320:1115/145640.339:ERROR:web_contents_delegate.cc(277)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+11월 15, 2024 14:56:45.20 [6140:21596:1115/145645.204:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 15, 2024 14:57:13.98 [6140:21596:1115/145713.983:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 15, 2024 14:58:06.11 [6140:21596:1115/145806.116:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 15, 2024 14:59:47.79 [6140:21596:1115/145947.793:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 15, 2024 15:03:15.48 [6140:21596:1115/150315.481:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 15, 2024 15:10:27.22 [6140:21596:1115/151027.228:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 15, 2024 17:03:23.23 [6140:21596:1115/170323.231:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
